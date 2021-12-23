@@ -5,4 +5,5 @@ class Addition implements Operation{
         return number1 + number2;
     }
 }
+
 export default Addition;
