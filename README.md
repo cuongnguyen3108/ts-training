@@ -4,7 +4,7 @@ Demo about OOP - Design by Contract & teamworking with Calculator example code
 
 ---
 
-# PREREQUISITS:
+# PREREQUISITES:
 
 ```sh
 yarn install
