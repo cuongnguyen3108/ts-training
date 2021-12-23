@@ -4,7 +4,13 @@ Demo about OOP - Design by Contract & teamworking with Calculator example code
 
 ---
 
-Command:
+# PREREQUISITS:
+
+```sh
+yarn install
+```
+
+# Calculator Command
 
 ```sh
 yarn ts-node index.ts <number1> <operation> <number2>
