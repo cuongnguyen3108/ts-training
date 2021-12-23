@@ -2,7 +2,9 @@ import { Operation } from "./Operation";
 
 class Mutiplication implements Operation {
     run(number1: number, number2: number): number {
-        return number1*number2
-    } 
-    
+        return number1 * number2;
+    }  
+
 }
+
+export default Mutiplication;
