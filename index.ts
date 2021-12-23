@@ -51,12 +51,22 @@ class Fraction {
     this.x = x;
     this.y = y;
   }
+  addition(other: Fraction) {
+    return (this.x * other.y + other.x * this.y) / (this.y * other.y)
+  }
+  division(other: Fraction) {
+    return (this.x * other.y) / (this.y * other.x)
+  }
 }
 
 
 const m = new Coordinator(3, 4);
 const n = new Coordinator(1, 6);
 
-const x = new Fraction(1,2);
-
 console.log(m.distance(n));
+
+const x = new Fraction(1, 2);
+const y = new Fraction(3, 4);
+
+console.log(x.addition(y));
+console.log(x.division(y));
