@@ -1,6 +1,6 @@
 import { Operation } from "./Operation";
 
-class Addition implements Operation{
+class Addition implements Operation {
     run(number1: number, number2: number): number {
         return number1 + number2;
     }
