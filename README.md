@@ -21,4 +21,12 @@ Where
 - `number1`, `number2` are the given numbers
 - `operation` is one of `+`, `-`, `x`, `/`
 
-@Credit @monkey-programmer
+Example:
+
+```sh
+yarn ts-node index.ts 1 + 2
+```
+
+**Credit** 
+
+@monkey-programmer
