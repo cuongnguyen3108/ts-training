@@ -7,7 +7,7 @@ class Human {
     this.name = name;
     this.weight = weight;
   }
-}
+}git 
 
 class Cat {
   name: string
