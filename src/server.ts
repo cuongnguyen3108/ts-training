@@ -25,4 +25,8 @@ router.get('/calculate', (request, response) => {
 
 app.use(router);
 
-app.listen(8080);
+const serverPort = process.env.PORT || 3000;
+
+app.listen(serverPort, () => {
+    console.log(`🚀  Server started at ${serverPort}`)
+});
