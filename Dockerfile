@@ -16,4 +16,5 @@ RUN yarn clean
 
 RUN yarn build
 
-ENTRYPOINT ["node", "build/index"] 
+# ENTRYPOINT ["node", "build/index"] 
+CMD [ "node", "build/server" ]
