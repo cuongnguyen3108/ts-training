@@ -15,14 +15,3 @@ console.log(calculator.calculate(operation, formattedNumber1, formattedNumber2))
 
 
 
-const wait = (ms) => {
-  return new Promise((resolve, reject)=>{
-    setTimeout(()=>{
-      resolve()
-    },1000)
-  });
-}
-wait(1000).then(()=>{
-  console.log("hello anh linh")
-})
-
